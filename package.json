@@ -4,17 +4,22 @@
   "description": "Library for displaying images responsively",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d lib",
-    "watch": "babel -w src -d lib"
+    "test": "",
+    "webpack": "webpack",
+		"start": "webpack-dev-server --hot --inline"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "babel-preset-env": "^1.6.0"
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "mocha-loader": "^1.1.1",
+    "webpack": "^3.5.3",
+    "webpack-dev-server": "^2.7.1"
   },
   "dependencies": {
-    "css-element-queries": "^0.4.0"
   }
 }
